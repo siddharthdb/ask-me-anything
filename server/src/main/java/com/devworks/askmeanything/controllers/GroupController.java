@@ -1,6 +1,6 @@
 package com.devworks.askmeanything.controllers;
 
-import com.devworks.askmeanything.models.Group;
+import com.devworks.askmeanything.models.data.Group;
 import com.devworks.askmeanything.repositories.GroupRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

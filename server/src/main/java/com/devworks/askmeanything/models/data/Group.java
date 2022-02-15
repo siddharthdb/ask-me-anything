@@ -1,4 +1,4 @@
-package com.devworks.askmeanything.models;
+package com.devworks.askmeanything.models.data;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;

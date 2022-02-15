@@ -1,6 +1,6 @@
 package com.devworks.askmeanything.controllers;
 
-import com.devworks.askmeanything.models.Reply;
+import com.devworks.askmeanything.models.data.Reply;
 import com.devworks.askmeanything.repositories.ReplyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

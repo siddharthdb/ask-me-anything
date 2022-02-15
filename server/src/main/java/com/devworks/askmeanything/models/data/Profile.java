@@ -1,4 +1,4 @@
-package com.devworks.askmeanything.models;
+package com.devworks.askmeanything.models.data;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
@@ -18,11 +18,11 @@ public class Profile {
 
     public String aboutMe;
 
-    public String twitterId;
+    public String twitter;
 
-    public String facebookId;
+    public String facebook;
 
-    public String LinkedInId;
+    public String LinkedIn;
 
     public List<Group> groups;
 

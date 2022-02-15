@@ -1,4 +1,4 @@
-package com.devworks.askmeanything.models;
+package com.devworks.askmeanything.models.data;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.DBRef;
@@ -17,6 +17,10 @@ public class Reply {
     public Date repliedDate;
 
     public Boolean isBestReply;
+
+    public Integer votes;
+
+    public Boolean isAnswer;
 
     @DBRef
     public User repliedUser;
